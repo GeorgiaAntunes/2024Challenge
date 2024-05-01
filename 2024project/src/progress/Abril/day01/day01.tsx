@@ -37,7 +37,7 @@ class Queue<T> {
     }
 }
 
-const MyComponent: React.FC = () => {
+const MyQueue: React.FC = () => {
     const [queue] = useState<Queue<number>>(new Queue<number>());
 
     queue.enqueue(2);
@@ -50,10 +50,10 @@ const MyComponent: React.FC = () => {
 
     return(
         <div>
-            {<MyComponent/>}
+            {<MyQueue/>}
         </div>
     );
 };
 
-export default MyComponent;
+export default MyQueue;
 
