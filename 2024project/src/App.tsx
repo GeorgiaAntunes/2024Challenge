@@ -1,19 +1,17 @@
-import { useState } from 'react'
-// import MyComponent from './progress/Abril/day01/day01'
+import Counter from './progress/Maio/day_03/day03'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Challenge 2024:</h1>
+      <h4>each day, new challenges and new learnings ;) </h4>
+
+      <div>day 3:</div>
+      <Counter inicialValue={0}/>
       
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
     </>
   )
 }
