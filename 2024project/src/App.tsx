@@ -1,6 +1,7 @@
 import Counter from './progress/Maio/day_03/day03'
 
 import './App.css'
+import GitHubProfile from './progress/Maio/day_04/day04'
 
 function App() {
   
@@ -11,6 +12,9 @@ function App() {
 
       <div>day 3:</div>
       <Counter inicialValue={0}/>
+
+      <GitHubProfile/>
+      
       
     </>
   )
